@@ -15,7 +15,7 @@ class ABSA2025MultiTask(Model):
         self.last_4_hidden_states = Concatenate(name='last_4_hidden_states')
         self.dropout = Dropout(0.2)
         self.dense_layers = [
-            Dense(4, activation='softmax', name=label.replace('#', '-').replace('&', '_')) 
+            Dense(4, activation='softmax', name=label.replace('/', '-').replace('&', '_')) 
             for label in self.aspect_category_names
         ]
 
