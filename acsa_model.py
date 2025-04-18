@@ -1,6 +1,6 @@
 from transformers import TFAutoModel
-from tf_keras import Model
-from tf_keras.layers import Dense, Dropout, Concatenate
+from tensorflow.keras import Model
+from tensorflow.keras.layers import Dense, Dropout, Concatenate
 from processors.eval2014_processor import PolarityMapping
 from helper import argmax_label_matrix
 
