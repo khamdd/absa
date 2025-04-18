@@ -39,10 +39,10 @@ env.bak/
 *.joblib
 *.npy
 *.npz
-__pycache__/
-datasets/
+__pycache__
 results/
 logs/
+
 
 # Transformers cache
 .cache/
@@ -84,3 +84,4 @@ test_data.csv
 
 
 /experiment/weights/
+/datasets/preprocessed_restaurant/
